@@ -118,6 +118,7 @@ export default class ReactTagInput extends React.Component<ReactTagInputProps, S
           <input
             ref={this.inputRef}
             value={input}
+            autoFocus
             className={classSelectors.input}
             placeholder={placeholder || "Type and press enter"}
             onChange={this.onInputChange}
